@@ -8,6 +8,7 @@ export enum Colors {
   inputfild = "#EFF2F5",
   background = "#fff",
   text = "#292D32",
+  textone = "#1D1D1D",
   tertiary = "#F7F7F7",
   secondary_light = "#FFF2F5",
   otpColor = "#6A798A",

@@ -250,7 +250,7 @@ const Auth: React.FC = () => {
           )}
           {!isKeyboardVisible && (
             <CommonButton
-              text={activeTab === "Login" ? "Login" : "Register"}
+              text={activeTab === "Login" ? "Login" : "Sign Up"}
               iconName="chevron-forward"
               onPress={handleSubmit(onSubmit)}
               buttonStyle={{
@@ -276,7 +276,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: Colors.background,
-    paddingTop: "5%",
+    paddingTop: "4.5%",
   },
   title: {
     fontSize: RFValue(25),
@@ -348,7 +348,7 @@ const styles = StyleSheet.create({
     fontFamily: "BarlowRegular",
     color: Colors.text,
     fontWeight: "400",
-    height: 51,
+    height: RFValue(41),
     marginBottom: 15,
     paddingLeft: "5%",
   },

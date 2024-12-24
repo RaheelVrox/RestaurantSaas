@@ -173,7 +173,6 @@ const styles = StyleSheet.create({
     fontWeight: "400",
     color: Colors.text,
     marginHorizontal: "5%",
-    marginTop: "5%",
   },
   subtitle: {
     fontSize: RFValue(17),
