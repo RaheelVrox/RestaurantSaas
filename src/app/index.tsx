@@ -16,7 +16,8 @@ const Main: React.FC = () => {
 
   const [hasNavigated, setHasNavigated] = useState(false);
   const tokenCheck = async () => {
-    resetAndNavigate("/Locationscreen");
+    resetAndNavigate("/(tabs)/home");
+    // resetAndNavigate("/Locationscreen");
   };
   useEffect(() => {
     if (loaded && !hasNavigated) {

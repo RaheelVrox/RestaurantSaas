@@ -17,6 +17,7 @@ import { useForm, Controller } from "react-hook-form";
 import * as yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
 import Icon from "react-native-vector-icons/MaterialCommunityIcons";
+import { router } from "expo-router";
 
 const OTPScreen = () => {
   const [isKeyboardVisible, setIsKeyboardVisible] = useState(false);
@@ -75,6 +76,7 @@ const OTPScreen = () => {
     if (data.otp) {
       const otpCode = data.otp.join("");
       console.log("Submitted OTP:", otpCode);
+      router.navigate("/(tabs)/home");
     }
   };
 

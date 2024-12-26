@@ -5,7 +5,7 @@ export const commonStyles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: Colors.background,
-    paddingTop: "4.5%",
+    paddingTop: "4.4%",
   },
   containerBlack: {
     flex: 1,
